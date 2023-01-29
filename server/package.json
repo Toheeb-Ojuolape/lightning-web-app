@@ -1,0 +1,32 @@
+{
+  "name": "lightning-app",
+  "version": "1.0.0",
+  "description": "a simple web application for lightning",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node app.js",
+    "web":"ts-node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toheeb-Ojuolape/lightning-web-app.git"
+  },
+  "keywords": [
+    "lightning",
+    "bitcoin",
+    "qala"
+  ],
+  "author": "Toheeb-Ojuolape",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toheeb-Ojuolape/lightning-web-app/issues"
+  },
+  "homepage": "https://github.com/Toheeb-Ojuolape/lightning-web-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@radar/lnrpc": "^0.11.1-beta.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express-ws": "^5.0.2"
+  }
+}
